@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+/* COMMONS */
+
 .container {
     width: 70%;
     margin: auto;
@@ -15,12 +17,14 @@
     display: flex;
 }
 
-section:nth-child(odd) {
+/* MAIN */
+
+.odd {
     background-color: white;
     padding: 30px 0;
 }
 
-section:nth-child(even) {
+.even {
     background-color: lightgray;
     padding: 30px 0;
 }
@@ -57,3 +61,43 @@ section:nth-child(even) {
     width: 100%;
     border: 1px dotted black;
 }
+
+/* FOOTER */
+
+footer section:first-of-type {
+    background-color: black;
+    padding: 30px 0;
+    border-bottom: 2px solid white;
+}
+
+footer section {
+    padding-top: 20px;
+    background-color: black;
+}
+
+.col-f1 {
+    width: calc( (100% / 6) * 2 );
+    background-color: #f08080;
+    height: 350px;
+    border: 1px dotted black;
+}
+
+.col-f2 {
+    width: calc(100% / 6);
+    background-color: #20b2aa;
+    border: 1px dotted white;
+}
+
+.flex-container-f {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    background-color: #7fffd4;
+}
+
+.logo, .bottone {
+    background-color: lightpink;
+    padding: 2px;
+    border: 1px dotted black;
+}
+
