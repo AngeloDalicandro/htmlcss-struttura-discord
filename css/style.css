@@ -17,6 +17,73 @@
     display: flex;
 }
 
+/* HEADER */
+
+header {
+    background-color: #add8e6;
+    padding-top: 10px;
+}
+
+.flex-container-h {
+    display: flex;
+    background-color: #daa520;
+    margin-bottom: 10px;
+}
+
+nav {
+    width: 60%;
+    border: 1px dotted black;
+    padding: 3px 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    padding: 0 2px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo-h {
+    width: 20%;
+    text-align: left;
+    border: 1px dotted black;
+    padding: 3px 0;
+}
+
+.login {
+    width: 20%;
+    text-align: right;
+    border: 1px dotted black;
+    padding: 3px 0;
+}
+
+/* JUMBOTRON */
+
+.jumbotron {
+    background-color: #00008b;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.j-content {
+    background-color: #ee82ee;
+    height: 250px;
+    width: 50%;
+    border: 1px dotted black;
+    
+}
+
+
+
 /* MAIN */
 
 .odd {
@@ -95,7 +162,7 @@ footer section {
     background-color: #7fffd4;
 }
 
-.logo, .bottone {
+.logo-f, .bottone {
     background-color: lightpink;
     padding: 2px;
     border: 1px dotted black;
