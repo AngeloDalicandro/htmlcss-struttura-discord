@@ -6,3 +6,54 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.flex-container {
+    display: flex;
+}
+
+section:nth-child(odd) {
+    background-color: white;
+    padding: 30px 0;
+}
+
+section:nth-child(even) {
+    background-color: lightgray;
+    padding: 30px 0;
+}
+
+.col-1 {
+    height: 300px;
+    width: 60%;
+    background-color: lightblue;
+    border: 1px dotted black;
+}
+
+.col-2 {
+    width: 40%;
+    background-color: lightpink;
+    border: 1px dotted black;
+}
+
+.col-3 {
+    height: 300px;
+    width: 60%;
+    background-color: lightpink;
+    border: 1px dotted black;
+}
+
+.col-4 {
+    width: 40%;
+    background-color: lightblue;
+    border: 1px dotted black;
+}
+
+.box-2 {
+    height: 600px;
+    background-color: green;
+    width: 100%;
+    border: 1px dotted black;
+}
